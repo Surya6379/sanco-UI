@@ -1,0 +1,20 @@
+<div class="loginCard">
+    <form [formGroup]="loginForm">
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>User Name</mat-label>
+                <input formControlName="userName" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input type="password" formControlName="password" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <button mat-raised-button color="primary">Login</button>
+        </div>
+                
+    </form>
+</div>

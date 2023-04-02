@@ -1,0 +1,38 @@
+<div class="loginCard">
+    <form [formGroup]="signinForm">
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>User Name</mat-label>
+                <input formControlName="userName" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input type="password" formControlName="password" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Role</mat-label>
+                <input type="password" formControlName="role" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input type="email" formControlName="email" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Mobile</mat-label>
+                <input type="text" formControlName="mobile" matInput>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <button mat-raised-button color="primary">Sign In</button>
+        </div>
+                
+    </form>
+</div>
